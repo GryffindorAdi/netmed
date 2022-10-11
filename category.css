@@ -1,0 +1,40 @@
+#category{
+    font-family: LatoSemiBold;
+}
+#category > div:first-child{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+#category > div:first-child >a{
+    color: #ef4281;
+    text-decoration: none;
+    font-size: 15px;
+  
+}
+
+#category >div:last-child{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+}
+
+#category >div:last-child >a{
+    text-align: center;
+    /* text-decoration: none; */
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: px;
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+
+#category >div >a p{
+    margin-top: -2px;
+    padding-bottom:10px ;
+}
+
+

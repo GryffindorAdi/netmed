@@ -1,0 +1,188 @@
+body {
+    font-family: Lato;
+    color: #151b39;
+    background-color: rgb(248, 246, 246);
+}
+
+#main {
+    display: flex;
+}
+
+#left {
+    width: 20%;
+    border: 1px solid black;
+}
+
+#right {
+    width: 78%;
+    margin: auto;
+}
+
+#right>div>img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#right>div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#right>div:nth-child(2)>p>span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div>button {
+    background: #fff;
+    border: 1px solid #edeef0;
+    padding: 0px 20px 0px 20px;
+    box-shadow: none;
+    font-size: 12px;
+    border-radius: 6px;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+    line-height: normal;
+
+}
+
+div>button:hover {
+    border: 1px solid #24aeb1;
+    color: #24aeb1;
+}
+
+div>button:focus {
+    border: 1px solid #24aeb1;
+    color: #24aeb1;
+}
+
+#right>div:nth-child(3) {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#right>div:nth-child(2)>div {
+    display: flex;
+}
+
+#dressing {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #fff;
+}
+
+#dressing>div {
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+#dressing>div>p:first-child>span {
+    box-sizing: border-box;
+    background: #84be52;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 9px;
+    font-family: LatoBold;
+    padding: 4px 5px 2px 5px;
+    top: 8px;
+    left: 8px;
+    line-height: 11px;
+    /* margin-top: -16px; */
+}
+
+#dressing>div>img {
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: -30px;
+    align-items: center;
+}
+
+#dressing>div>img+h4 {
+    font-family: LatoBold;
+    font-size: 14px;
+    color: #151b39;
+    letter-spacing: 0;
+    display: block;
+    margin: 4px 0 5px;
+    text-align: left;
+    height: 42px;
+    overflow: hidden;
+}
+
+#dressing>div>p>span {
+    /* background-color: green;
+    margin-right: 7px;
+    padding: 5px;
+    border-radius: 5px; */
+    color: #24aeb1;
+    font-size: 10px;
+    line-height: 14px;
+    background: #f3f7fb;
+    border-radius: 40px;
+    padding: 4px 10px;
+    margin: 0 4px 0 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#dressing>div>p+p {
+    width: auto;
+    display: block;
+    font-family: Lato;
+    font-style: italic;
+    /* line-height: 16px; */
+    font-size: 13px;
+    color: #6f7284;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+
+#dressing>div>p+h4 {
+    font-size: 14px;
+    font-family: LatoBold;
+    color: #6f7284 !important;
+    margin-top: -3px;
+}
+
+#dressing>div>p+h4>:last-child {
+    /* color: red; */
+    color: #ef4281;
+    font-size: 16px;
+    font-family: LatoBold;
+    white-space: nowrap;
+    margin-left: 3px;
+}
+
+#dressing>div>h5 {
+    margin-top: -10px;
+}
+
+#dressing>div>h5>:last-child {
+    /* color: red; */
+    text-decoration: line-through;
+    padding: 0 5px;
+}
+
+#dressing>div>button {
+    background: #24aeb1;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 11px 0 7px;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: LatoBold !important;
+    cursor: pointer;
+}
