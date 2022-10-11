@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+/* footer*/
+
+#footer1 {
+  background-color: white;
+  padding: 36px 30px;
+  margin-top: 36px;
+}
+#footer-top {
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 1280px;
+  padding-bottom: 36px;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+#logo {
+  margin: 0px 32px 0px 0px;
+  padding: 0px 32px 0px 0px;
+}
+#logo + div {
+  width: 768px;
+}
+#logo + div > p {
+  font-size: 19px;
+  color: rgb(144, 144, 144);
+}
+#foorter-maindiv {
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#footer-container {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1030px;
+  max-width: 1280px;
+  margin: auto;
+}
+ul {
+  margin-top: 0;
+}
+ul,
+li {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+li {
+  line-height: 32px;
+}
+ul h2 {
+  font-size: 14px;
+}
+#footer-container a {
+  text-decoration: none;
+  color: black;
+}
+.subscribe {
+  width: 252px;
+  height: 350px;
+  padding: 0px 0px 0px 32px;
+  font-size: 14px;
+}
+.subscribe > h2 {
+  font-size: 14px;
+}
+form {
+  width: 250px;
+  height: 45px;
+}
+#email {
+  display: flex;
+  margin-top: 24px;
+  border-bottom: 1px solid gray;
+}
+button {
+  /* width: 40px; */
+  height: 40px;
+  border: 0;
+  background-color: white;
+}
+input {
+  width: 206px;
+  height: 34px;
+  border: 0;
+}
+#downloadapp {
+  display: flex;
+}
+#downloadapp img {
+  width: 99px;
+
+  margin: 16px 16px 0px 0px;
+}
+
+/*copyright*/
+
+#copyright {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 116px;
+  border-top: 1px solid gray;
+}
+#copyright > div {
+  display: flex;
+  height: 65px;
+  align-items: center;
+  color: gray;
+}
+#copyright > div a {
+  text-decoration: none;
+  color: gray;
+}
+#footer2 {
+  background-color: white;
+}
