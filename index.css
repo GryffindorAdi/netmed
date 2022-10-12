@@ -27,7 +27,7 @@ body {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: nowrap;
   flex-direction: row;
 }
@@ -38,22 +38,30 @@ body {
 }
 .nav-input > input {
   width: 66%;
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
 }
 #navupper > div:not(:first-child) {
   margin: 15px;
 }
+#navupper div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navupper > div span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 div > i {
   margin-right: 5px;
 }
 a {
   text-decoration: none;
   color: #fff;
-}
-i {
-  cursor: pointer;
 }
 
 /*  */

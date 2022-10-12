@@ -1,0 +1,42 @@
+#section-slider {
+  width: 80%;
+  margin: auto;
+}
+
+.main {
+  position: relative;
+  /* margin: auto;
+  width: 90%; */
+  height: 41vh;
+  /* margin-top: 50px; */
+  overflow: hidden;
+}
+
+.imageslider img,
+.imageslider1 img,
+.imageslider2 img {
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.imageslider,
+.imageslider1,
+.imageslider2 {
+  position: absolute;
+  transition: 1s;
+  width: 22%;
+}
+.slider-btm {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 23vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-btm > button {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background-color: #ffffffb3;
+}

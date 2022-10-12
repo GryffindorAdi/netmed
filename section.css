@@ -17,7 +17,7 @@ section {
 #home-box {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #box {
   display: flex;
@@ -30,10 +30,10 @@ section {
   margin-top: 5px;
   color: yellowgreen;
 }
-#box > div,
+/* #box > div,
 img {
   padding: 10px;
-}
+} */
 
 #box > div {
   display: flex;
@@ -46,7 +46,7 @@ img {
 #home-payment,
 .payment-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .payment-box img {
@@ -57,7 +57,7 @@ img {
   padding: 10px;
   overflow: hidden;
   border-radius: 10px;
-  width: 31%;
+  margin-right: 35px;
 }
 .heading {
   margin: 40px 0;
@@ -87,6 +87,8 @@ img {
   display: block;
   margin-top: 20px;
   text-decoration: none;
+}
+#home-orders > div button {
   background-color: #32aeb1;
   color: #fff;
   border: none;
@@ -103,7 +105,7 @@ img {
 #home-orders > div a {
   color: #32aeb1;
 }
-.fa-solid {
+#home-box > div i {
   color: #fff;
   background-color: #32aeb1;
   padding: 5px;
