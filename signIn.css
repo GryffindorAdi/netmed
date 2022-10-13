@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+
+}
+body{
+    background-color: rgb(246,246,247);
+}
+#main{
+    
+    background-color: white;
+    display: flex;
+    width: 1030px;
+    align-items: center;
+    margin: auto;
+    margin-top: 48px;
+    border-radius: 10px;
+}
+#rightinside{
+    
+    width: 515px;
+    height: 528;
+    padding: 30px 48px;
+}
+#rightpart{
+    
+    width: 419px;
+    height: 349px;
+    padding: 0px 32px;
+    margin: auto;
+}
+#innercol{
+    position: relative;
+}
+#innercol > p{
+    width: 355px;
+    height: 44px;
+}
+form{
+    width: 355px;
+    height: 133px;
+    position: relative;
+    
+}
+input{
+    height: 32px;
+    padding: 3px 0px 0px 40px;
+    
+}
+label{
+    color:  rgb(36,174,177);
+}
+form > input{
+    border: 0;
+}
+button{
+    width: 355px;
+    height: 41px;
+    background-color: rgb(36,174,177);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+#signinshortcut{
+    display: flex;
+    width: 355px;
+    
+    justify-content: space-evenly;
+    margin: 80px 0px 0px;
+}
+#signinshortcut > div{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 148px;
+    height: 43px;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+#signinshortcut > div img{
+    width: 20px;
+    height: 20px;
+}
