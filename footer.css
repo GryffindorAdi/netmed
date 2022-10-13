@@ -5,17 +5,20 @@
 }
 
 /* footer*/
-
-#footer1 {
+footer {
+  width: 80%;
+  margin: auto;
+}
+/* #footer1 {
   background-color: white;
   padding: 36px 30px;
+  width: 80%;
   margin-top: 36px;
-}
+} */
 #footer-top {
   display: flex;
   margin: auto;
   margin-bottom: 50px;
-  width: 1280px;
   padding-bottom: 36px;
   align-items: center;
   border-bottom: 1px solid gray;
@@ -25,7 +28,7 @@
   padding: 0px 32px 0px 0px;
 }
 #logo + div {
-  width: 768px;
+  /* width: 768px; */
 }
 #logo + div > p {
   font-size: 19px;
@@ -39,8 +42,7 @@
 #footer-container {
   display: flex;
   justify-content: space-between;
-  min-width: 1030px;
-  max-width: 1280px;
+  width: 100%;
   margin: auto;
 }
 ul {
@@ -63,7 +65,7 @@ ul h2 {
   color: black;
 }
 .subscribe {
-  width: 252px;
+  width: 25%;
   height: 350px;
   padding: 0px 0px 0px 32px;
   font-size: 14px;

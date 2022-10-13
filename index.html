@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>netmeds</title>
+    <title>dev netmeds</title>
     <script
       src="https://kit.fontawesome.com/b0cf74dcd3.js"
       crossorigin="anonymous"
@@ -20,7 +20,10 @@
     <link rel="stylesheet" href="section.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="imagesllider.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="card.css" />
     <!-- css files ended -->
+   
   </head>
   <body>
     <div id="main">
@@ -334,6 +337,47 @@
         </div>
       </div>
     </main>
+
+    <!-- 1nd card sliders started -->
+    <div class="cardmain">
+      <div id="section-card">
+        <div class="k">
+          <h1 class="heading">Limited Time Deals</h1>
+
+          <div class="s">
+            <div class="Cardslider-btm">
+              <button onclick="cardprev()">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button onclick="cardnext()">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1nd card sliders ended -->
+      <!-- 2nd card sliders started -->
+      <div id="section-card">
+        <dir class="k">
+          <h1 class="heading">Moisturizers</h1>
+          <div class="s1">
+            <div class="Cardslider-btm">
+              <button onclick="cardprev1()">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button onclick="cardnext1()">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </dir>
+      </div>
+      
+      <!--2nd card sliders ended -->
+    </div>
+
     <main id="section-slider">
       <h1 class="heading">New On Netmeds</h1>
       <div class="main">
@@ -433,7 +477,8 @@
       </div>
     </main>
     <!-- main section ended -->
-    <footer id="footer1">
+    <footer>
+    <div id="footer1">
       <div>
         <div id="footer-top">
           <div id="logo">
@@ -569,8 +614,8 @@
           </div>
         </div>
       </div>
-    </footer>
-    <footer id="footer2">
+    </div>
+    <div id="footer2">
       <div id="copyright">
         <div>
           <a href="">Medicine</a>
@@ -586,7 +631,8 @@
         </div>
         <div>Copyright© 2022. All Rights Reserved.</div>
       </div>
-    </footer>
+    </div>
   </body>
 </html>
 <script src="slider.js"></script>
+<script src="card.js"></script>
