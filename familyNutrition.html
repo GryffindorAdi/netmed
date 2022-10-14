@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dressing</title>
+    <link rel="stylesheet" href="familyNutrition.css">
+   
+</head>
+
+<body>
+    <div id="main">
+        <div id="left">
+            <div id="catagories">
+                <div>
+                    <h2>Categories</h2>
+                </div>
+                <div>
+                    <nav>
+                        <label for=""></label>
+                    </nav>
+                </div>
+            </div>
+
+
+
+            <div id="filter" >
+                <div>
+                    <h1>Filter</h1>
+                    <div>
+                        <div>
+                            <h2>Brands</h2>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="form">
+                                    <form action="">
+                                        <input type="search" name="" class="input" placeholder="Search... " >
+                                    </form>
+                                </div>
+                                <ul id="brandul">
+                                    <li>
+                                        <div>
+                                            <input type="checkbox" onclick="funclick1()"/>
+                                            <span>B-Protin</span>
+                                            <span>(6)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox" onclick="funclick2()"/>
+                                            <span>Cf</span>
+                                            <span>(18)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox" onclick="funclick3()"/>
+                                            <span>Dr. Morepen </span>
+                                            <span>(10)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox" onclick="funclick4()"/>
+                                            <span>Enorma</span>
+                                            <span>(15)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox">
+                                            <span>Ensure</span>
+                                            <span>(19)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox">
+                                            <span>Fast&Up</span>
+                                            <span>(17)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox">
+                                            <span>Bsn</span>
+                                            <span>(32)</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h2>Manufacturers</h2>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <form action="">
+                                <input type="search" class="input" placeholder="Search...">
+                            </form>
+                        </div>
+                        <ul id="manufacture-ul">
+                            <li>
+                                <div>
+                                    <input type="checkbox" onclick="funclick5()"/>
+                                    <span>Mkt: British Biologicals</span>
+                                    <span>(104)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" onclick="funclick6()"/>
+                                    <span>Mkt: Novus Life Sciences Pvt. Ltd.</span>
+                                    <span>(58)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" onclick="funclick7()"/>
+                                    <span>Mkt: Dr.Morepen Ltd</span>
+                                    <span>(49)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" onclick="funclick8()"/>
+                                    <span>Mkt: Esperer Onco Nutrtion Ltd</span>
+                                    <span>(41)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox"/>
+                                    <span>Herboveda India</span>
+                                    <span>(36)</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>catagories</h2>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <form action="">
+                                <input type="search" class="input" placeholder="Search...">
+                            </form>
+                        </div>
+                        <ul id="catagories-ul">
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>Digestives</span>
+                                    <span>(43)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>General Health</span>
+                                    <span>(618)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>Health Drinks</span>
+                                    <span>(39)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>Protien Supplements</span>
+                                    <span>(399)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>Sugar Subtitues(Fitness)</span>
+                                    <span>(97)</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2>Price</h2>
+                </div>
+                <div>
+                    <input
+                      id="rangeElement"
+                      type="range"
+                      class="swipe-either-way"
+                      oninput="showVal(this.value)"
+                      value="0"
+                      mmin="0"
+                      max="100"
+                    />
+                    <span id="kl">0 </span>
+                </div>
+                <div>
+                    <h2>Availability</h2>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <span>Exclude out of stock (372)</span>
+                </div>
+            </div>
+            
+
+        </div>
+        <div id="right">
+            <div>
+                <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1663163109_netmed-healthvit-banner-web.jpg" alt="">
+            </div>
+            <div>
+                <P>Showing <span>12</span> of <span>230</span> </P>
+                <div>
+                    <p>Sort by: </p>
+                    <button class="active">Popularity</button>
+                    <button onclick="HighToLow()">High to Low</button>
+                    <button onclick="LowToHigh()">Low To High</button>
+                    <button onclick="sortByDiscount()">Discount</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>ALL PRODUCTS</h3>
+                </div>
+
+                <div id="dressing">
+                    <!-- product code from json -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="familyNutrition.js"></script>

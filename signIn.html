@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netmed Sign In / Sign Up</title>
+    <link rel="stylesheet" href="signIn.css">
+</head>
+<body>
+    <div id="main">
+        <div>
+            <div><img src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png" alt="image"></div>
+        </div>
+
+        <div id="rightinside">
+            <div id="rightpart">
+            <h2> Sign In / Sign Up</h2>
+
+            <div id="innercol">
+                <p>Sign up or Sign in to access your orders, special offers, health tips and more!</p>
+
+                <form >
+                    <h2>Log In</h2>
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="Enter email" id="email"><br>
+                    <hr>
+            
+                    <label for="passwod">Password</label><br>
+                    <input type="password" placeholder="Enter password" id="password"><br>
+                    <hr>
+            
+                    <input type="submit" value="SIGN IN" id="submitbtn">
+            
+                    <p>Don't have an account ? <a href="signUp.html">Sign Up</a></p>
+                </form>
+                    
+                    
+            </div>
+
+            <div id="signinshortcut">
+                <div>
+                      <img src="https://banner2.cleanpng.com/20180324/iww/kisspng-google-logo-g-suite-google-5ab6f1cee66464.5739288415219388949437.jpg" alt="">
+                    <p>Google</p>
+                </div>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1024px-Facebook_logo_36x36.svg.png" alt="">
+                    <p>Facebook</p>
+                </div>
+            </div>
+            
+
+
+            
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+<script>
+    
+    let userData = JSON.parse(localStorage.getItem("userData"));
+    document.querySelector("form").addEventListener("submit" , compare);
+
+    function compare(e){
+        e.preventDefault();
+
+        let email =document.querySelector("#email").value
+        let password =document.querySelector("#password").value
+
+        console.log(email,password);
+
+        let isPresent = userData.filter(function(e){
+            return email == e.email && password == e.password;
+        }) 
+        console.log(isPresent)
+        if(isPresent.length == 0){
+            alert("wrong credential")
+        }else{
+            alert("login success")
+            window.location.href="index.html"
+        }
+
+    }
+</script>

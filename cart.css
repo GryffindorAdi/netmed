@@ -1,0 +1,549 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+  }
+   body {
+    /* background-color: rgb(240, 233, 233); */
+    background: #f6f6f7;
+  }
+   
+  #container {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 150px;
+    /* border: 1px solid black; */
+    color: #151b39;
+    /* margin-bottom: -10px; */
+    font-size: 14px;
+    /* background-color: rgb(240, 233, 233); */
+    background: #f6f6f7;
+  }
+  #container > h1 {
+    margin-left: 50px;
+  }
+  #bag {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background: #f6f6f7;
+    /* border: 1px solid black; */
+    /* background-color: rgb(240, 233, 233); */
+  }
+  #bag1 {
+    width: 67%;
+    height: 100%;
+  
+    /* border: 1px solid black; */
+  }
+  #bag2 {
+    width: 28%;
+    height: 100%;
+    /* border: 1px solid black; */
+  }
+  
+  /* doubt */
+  #bag11 {
+    width: 100%;
+    
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  #bag11 > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  #bag12 {
+    width: 98%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 0px 0px 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  #bag12 > p {
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgba(21, 27, 57, 0.6);
+    display: inline-block;
+    line-height: 16px;
+    font-weight: bold;
+  }
+  
+  #cartitems {
+    margin-top: -15px;
+  }
+  
+  .boxCard32 > span {
+    margin-left: 100px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .cc1:hover {
+    background-color: #151b3999;
+    color: white;
+  }
+  .cc1 {
+    margin-left: 48px;
+    /* background-color: #f6f6f7; */
+    color: #151b3999;
+    border: 0px;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 45px;
+    font-size: 14px;
+    font-weight: 900;
+    height: 25px;
+  }
+  
+  .cc2:hover {
+    background-color: #151b3999;
+    color: white;
+  }
+  .cc2 {
+    margin-left: 10px;
+    /* background-color: #f6f6f7; */
+    color: #151b3999;
+    border: 0px;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 45px;
+    font-size: 14px;
+    font-weight: 900;
+    height: 25px;
+  }
+  
+  .boxCard321 > button {
+    margin-left: 15px;
+  
+    font-size: 14px;
+    font-weight: 900;
+    height: 100%;
+    color: #151b3999;
+    border: 0px;
+    border-radius: 4px;
+  }
+  
+  #bag13 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  #bag14 {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  #bag14 > div {
+    padding: 10px;
+  }
+  #bag14 > div > span {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* margin-left: 40px; */
+    color: #151b3999;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #bag14 > div > p {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #151b3999;
+    font-size: 12px;
+  }
+  
+  #bag21 {
+    width: 100%;
+    height: 85px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    border-radius: 8px;
+  }
+  
+  #bag21 > div {
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: #f85caa;
+    color: white;
+    border-radius: 4px 0px 0px 4px;
+  }
+  
+  #bag21 > div ~ div {
+    width: 65%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: #f85caa;
+    border-radius: 0px 0px 0px 0px;
+  }
+  
+  #bag21 > div ~ div ~ div {
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: #df3679;
+    border-radius: 0px 4px 4px 0px;
+  }
+  
+  #bag21 > div > div > img {
+    width: 60%;
+    height: 80%;
+    /* border: 1px solid black; */
+    display: block;
+    margin: auto;
+    margin-top: 22px;
+    border-radius: 50%;
+  }
+  
+  #bag21 > div ~ div > p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 18px;
+  }
+  #bag21 > div ~ div > p + p {
+    margin-top: -8px;
+    font-size: 10px;
+    color: rgb(235, 226, 226);
+  }
+  
+  #bag22 {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  #bag22 > p {
+    color: #151b3999;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-left: 28px;
+    padding-top: 10px;
+  }
+  
+  summary > span {
+    color: #151b3999;
+    font-size: 14px;
+    font-weight: 900;
+    margin-left: 3px;
+    letter-spacing: 1px;
+  }
+  
+  summary > p {
+    color: #151b3999;
+    font-size: 12px;
+    font-weight: 900;
+    margin-left: 17px;
+    margin-top: 10px;
+  }
+  #bag23 {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    /* margin-bottom: 10px; */
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  #bag24 > div {
+    font-size: 10px;
+    /* line-height: 0px; */
+    font-style: italic;
+    line-height: 12px;
+    color: grey;
+    margin: 12px;
+    border-radius: 1px solid black;
+    /* background-color: white; */
+  }
+  span {
+    color: #007bff;
+  }
+  h5 {
+    color: rgba(21, 27, 57, 0.6);
+    line-height: 16px;
+    /* letter-spacing: 1px; */
+    font-size: 12px;
+    margin: 10px 0px 16px 10px;
+  }
+  #promo {
+    width: 94%;
+    margin: auto;
+  }
+  #abc {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    border: none;
+    font: 14px;
+    width: 200px;
+  }
+  
+  #dotbox {
+    border: 1px dotted black;
+    background-color: #f3f7fb;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 18px 18px 18px 18px;
+  }
+  #coupon {
+    font-family: Lato;
+    font-size: 10px;
+    color: rgba(21, 27, 57, 0.6);
+    line-height: 10px;
+    padding: 7px 0 0;
+    margin-top: -5px;
+    margin-left: 22px;
+  }
+  #coupon1 {
+    font-family: Lato;
+    font-size: 12px;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    color: rgba(21, 27, 57, 0.6);
+    line-height: 15px;
+    padding: 7px 4px 10px 4px;
+    margin-top: -5px;
+    /* margin-left: 22px; */
+  }
+  #abcd {
+    margin-bottom: 5px;
+    color: #24aeb1;
+  }
+  #Note {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  
+  #price {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #price > span {
+    color: #151b39;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  
+  #price > span ~ span {
+    color: #151b39;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  
+  #pding {
+    padding: 15px;
+  }
+  
+  #pding > div > h4 {
+    margin-top: -2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #151b3999;
+  }
+  
+  #saving {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(242, 255, 242);
+    color: #378f30;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  #saving > span {
+    color: #378f30;
+  }
+  
+  #amount {
+    margin-top: 10px;
+    display: flex;
+    /* border: 1px solid blue; */
+  }
+  
+  #amount > div > p {
+    color: #151b3999;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 6px;
+    margin-top: 22px;
+    font-weight: 700;
+  }
+  
+  #amount > div > p ~ p {
+    color: #151b39;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 6px;
+    margin-top: -8px;
+  }
+  
+  #amount > div ~ div {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  #amount > div ~ div > button {
+    margin-top: 2px;
+    margin-left: 30px;
+    height: 40px;
+    background-color: #24aeb1;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    width: 130px;
+    margin-right: 10px;
+  }
+  
+  .boxCard1 {
+    /* border: 1px solid black; */
+    width: 5%;
+  }
+  .boxCard2 {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin-left: 5px;
+  }
+  .boxCard2 > p {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #151b39;
+  }
+  
+  .boxCard2 > p ~ p {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #151b3999;
+    margin-top: -15px;
+    font-style: italic;
+  }
+  
+  .boxCard3 {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .boxCard31 > span {
+    color: #ef4281;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .boxCard31 > span ~ span {
+    color: #151b3999;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .boxCard31 > p {
+    margin-top: 33px;
+    color: #151b39;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .boxCard1 > img {
+    margin-top: 20px;
+    width: 100%;
+    /* height:30px */
+  }
+  
+  .boxCard31 > p {
+    margin-left: 5px;
+  }
+  
+  .boxCard31 > span {
+    margin-left: 5px;
+  }
+  .boxCard31 > span:nth-child(2) {
+    margin-left: 5px;
+    text-decoration: line-through;
+  }
+  .boxCard32 {
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-left: 50px;
+    /* border: 1px solid black; */
+  }
+  
+  .boxCard321 > button:hover {
+    background-color: #151b3999;
+    color: white;
+  }
+  .boxCard321 {
+    margin-top: 20px;
+    margin-left: 70px;
+    /* border: 1px solid black; */
+    width: 74%;
+    border-left: 2px solid grey;
+    padding-left: 10px;
+    height: 30px;
+  }
+  
+  .boxCard32 > button {
+    margin-right: 5px;
+  }
+  
+  .addmore {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .addmore > a > button {
+    margin-top: 10px;
+    margin-right: 32px;
+    border: 0px;
+    color: #24aeb1;
+    font-size: 18px;
+    background-color: white;
+    font-weight: 900;
+    /* border: 1px solid black; */
+  }
+  
+  .addmore > a ~ a > button {
+    /* display: block; */
+    margin-right: 20px;
+    /* border: 0px;
+    color: teal; */
+    font-size: 24px;
+    background-color: white;
+  
+    font-weight: 900;
+    margin-right: 30px;
+    margin-top: 0px;
+  }
+  
+  #proceed {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
