@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/b0cf74dcd3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: nowrap;
+      background: #32aeb1;
+    }
+
+    .menu ul {
+      list-style: none;
+      text-decoration: none;
+      display: flex;
+      gap: 20px;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+    }
+    .menu ul li {
+      color: #fff;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+    .menu ul li img {
+      padding: 10px;
+    }
+    .menu ul li a {
+      color: #fff;
+      /* font-size: 20px; */
+      text-decoration: none;
+    }
+
+    .dropdown ul li a {
+      color: gray;
+      width: 100%;
+    }
+    .dropdown ul li a:hover {
+      color: #32aeb1;
+    }
+    .dropdown {
+      display: none;
+    }
+    .menu ul li:hover .dropdown {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      background-color: #fff;
+      color: gray;
+    }
+    .dropdown ul {
+      display: block;
+      box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+      padding: 0px;
+      margin: 0 5px;
+    }
+    .dropdown ul li {
+      width: 130px;
+      padding: 10px;
+      color: gray;
+    }
+    .dropdown ul li:hover {
+      background-color: #fff;
+    }
+  </style>
+  <body>
+    <div class="menu">
+      <ul>
+        <li>
+          <img
+            src="https://www.netmeds.com/assets/version1663621997/gloryweb/images/icons/medicine.svg"
+            alt=""
+          />
+          <a href="">medicine <i class="fa-solid fa-caret-down"></i></a>
+          <div class="dropdown">
+            <ul>
+              <li>
+                <a href="https://www.netmeds.com/prescriptions">All Medicine</a>
+              </li>
+              <li><a href="#">previously Ordered Products</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <img
+            src="https://www.netmeds.com/assets/gloryweb/images/icons/wellness.svg"
+            alt=""
+          />
+          <a href="">Wellness</a>
+        </li>
+        <li>
+          <img
+            src="https://www.netmeds.com/assets/gloryweb/images/icons/diagnostics.svg"
+            alt=""
+          />
+          <a href="">Lab Tests</a>
+        </li>
+
+        <li>
+          <img
+            src="https://www.netmeds.com/assets/version1663621997/gloryweb/images/icons/health-library.svg"
+            alt=""
+          />
+          <a href="">Beauty <i class="fa-solid fa-caret-down"></i></a>
+          <div class="dropdown">
+            <ul>
+              <li>
+                <a href="/non-prescriptions/personal-care">Personal Care</a>
+              </li>
+              <li><a href="/non-prescriptions/hair">Hair</a></li>
+              <li><a href="/non-prescriptions/skin-care">Skin Care</a></li>
+              <li>
+                <a href="/non-prescriptions/tools-appliances"
+                  >Tools & Appliances</a
+                >
+              </li>
+              <li><a href="/non-prescriptions/mom-baby">Mom & Baby</a></li>
+              <li><a href="/non-prescriptions/fragrances">Fragrances</a></li>
+              <li>
+                <a href="/non-prescriptions/men-s-grooming">Men's Grooming</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <img
+            src="https://www.netmeds.com/assets/gloryweb/images/icons/beauty.svg"
+            alt=""
+          />
+          <a href="">heath care <i class="fa-solid fa-caret-down"></i></a>
+          <div class="dropdown">
+            <ul>
+              <li><a href="/health-library">Health Library</a></li>
+              <li>
+                <a href="/patientsalike" target="_blank" rel="noopener"
+                  >PatientsAlike</a
+                >
+              </li>
+              <li><a href="/corona-awareness">Corona Awareness</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
