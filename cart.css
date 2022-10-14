@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+#navupper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #24aeb1;
+}
+
+#navupper > img {
+  width: 150px;
+  margin: 15px;
+}
+#navupper > .nav-input {
+  margin: 15px;
+  width: 45%;
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.nav-input > span {
+  width: 30%;
+  text-align: center;
+  color: #4242428f;
+}
+.nav-input > input {
+  width: 66%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+#navupper > div:not(:first-child) {
+  margin: 15px;
+}
+#navupper div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navupper > div span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div > i {
+  margin-right: 5px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* navbar :end */
+
+h1 {
+  margin: 15px 0;
+}
+#slider {
+  width: 100%;
+  /* height: 500px; */
+  overflow: hidden;
+  margin: auto;
+}
+.slides {
+  width: 500%;
+  /* height: 500px; */
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+.slide img {
+  width: 99%;
+}
+
+.manual {
+  position: absolute;
+  width: 45%;
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btm {
+  border: 2px solid #0b6d68;
+
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btm:not(:last-child) {
+  margin-right: 15px;
+}
+
+.manual-btm:hover {
+  background-color: #23e3c9;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+/* ///////////////////////////////// */
+/* .nav {
+  background-color: khaki;
+  height: 10vh;
+} */
+#cart-main {
+  width: 70%;
+  margin: auto;
+}
+.mainbox {
+  display: grid;
+  grid-template-columns: 100px auto;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.mainbox img {
+  height: 60px;
+  width: 90px;
+  padding: 15px 0;
+}
+.boxbtm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.price {
+  display: flex;
+  justify-content: space-around;
+}
+.price select {
+  width: 12%;
+  height: 35px;
+  border: 1px solid grey;
+  color: grey;
+  text-align: center;
+}
+.boxbtm button {
+  width: 23%;
+  padding: 10px;
+  border: none;
+  background: #cbcbcbb8;
+  color: #1a19198f;
+  border-radius: 5px;
+}
+#addcartDiv {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+/* #right_side_data {
+  background-color: khaki;
+} */
+h5 {
+  color: #545253;
+}
+/* ////right ///// */
+.ad {
+  display: flex;
+  color: #fff;
+  width: 100%;
+  margin: 0 0 16px;
+  background: rgb(248, 92, 178);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 92, 178, 1) 8%,
+    rgba(255, 0, 128, 1) 97%
+  );
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+}
+.ad_para {
+  padding: 10px 9px;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding: 5px 10px;
+  color: #545253;
+  gap: 20px;
+}
+.total > p {
+  background-color: #f3f8ec;
+  padding: 5px;
+  color: #378f30;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+}
+.total-pay {
+  padding-left: 20px;
+}
+.payment-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.payment-total > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+}
+.payment-total > button {
+  border: none;
+  background: #24aeb1;
+  font-family: LatoBold;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 4px;
+  width: 40%;
+}
+#right_side_data > p {
+  font-size: small;
+  color: grey;
+  margin: 10px 0 0 0;
+}
+#promo {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #545253;
+}
+@media all and (max-width: 1100px) and (min-width: 301px) {
+  #navupper > .nav-input {
+    width: 100%;
+    margin: 0;
+  }
+  #cart-main {
+    width: 90%;
+  }
+  #addcartDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .ad {
+    width: 50%;
+    margin: 30px auto;
+  }
+}
