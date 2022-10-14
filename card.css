@@ -1,7 +1,7 @@
 .cardmain {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 
@@ -9,7 +9,7 @@
 .s1 {
   position: relative;
   margin: auto;
-  height: 40vh;
+  height: 50vh;
   width: 95%;
   overflow: hidden;
 }
@@ -29,9 +29,9 @@
   transition: 1s;
   width: 22%;
   padding: 10px;
-  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  
   background: #fff;
-  height: 35vh;
+  height: 45vh;
   display: flex;
   border-radius: 10px;
   color: black;
@@ -76,5 +76,7 @@ p {
   padding: 1px 0 0 0;
 }
 #section-card {
+  margin-top: 100px;
+  margin-bottom: 100px;
   height: 53vh;
 }

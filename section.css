@@ -9,7 +9,7 @@ section {
 #home {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 40px;
 }
@@ -42,7 +42,9 @@ img {
   align-items: center;
 }
 /* /// */
-
+#home-payment{
+  padding: 0 23px;
+}
 #home-payment,
 .payment-box {
   display: flex;
@@ -57,10 +59,10 @@ img {
   padding: 10px;
   overflow: hidden;
   border-radius: 10px;
-  margin-right: 35px;
+  margin: 0 20px;
 }
 .heading {
-  margin: 40px 10px;
+  margin: 40px 40px;
 }
 .payment-box > div p {
   font-size: small;
@@ -70,6 +72,7 @@ img {
 
 #home-orders {
   display: flex;
+  margin: 0 20px;
   margin-top: 30px;
   justify-content: space-between;
 }
@@ -89,6 +92,8 @@ img {
   text-decoration: none;
 }
 #home-orders > div button {
+  display: flex;
+  width: auto;
   background-color: #32aeb1;
   color: #fff;
   border: none;

@@ -28,11 +28,7 @@
     margin-right: 15px;
   }
 
-  #home-box,
-  #home-payment,
-  #home-orders {
-    flex-direction: column;
-  }
+  
   #box {
     width: 100%;
     padding: 15px;

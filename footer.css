@@ -6,7 +6,7 @@
 
 /* footer*/
 footer {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 /* #footer1 {
@@ -122,6 +122,6 @@ input {
 }
 #footer2 {
   background-color: white;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
