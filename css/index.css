@@ -538,8 +538,17 @@ input{
 
 
 #catagory-box-2{
-  background-color: white;
+  
+  
   margin-top: 30px;
+  
+}
+#catagory-box-2 a{
+  background-color: white;
+  border-radius: 10px;
+}
+#category{
+  margin: 0 30px;
 }
 #category > div:first-child{
   display: flex;
@@ -565,8 +574,8 @@ input{
   /* text-decoration: none; */
   text-decoration: none;
   color: black;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  
   padding: px;
   padding-bottom: 30px;
   font-size: 17px;

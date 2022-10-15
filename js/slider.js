@@ -83,7 +83,7 @@ console.log(ImageSlides2.length - 3);
 var counter2 = 0;
 ImageSlides2.forEach((imageslider2, index) => {
   if (screen.width > 1099) {
-    imageslider2.style.left = `${index * 35}%`;
+    imageslider2.style.left = `${index * 20}%`;
   } else {
     imageslider2.style.left = `${index * 75}%`;
   }

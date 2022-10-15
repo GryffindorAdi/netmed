@@ -9,7 +9,7 @@
 .s1 {
   position: relative;
   margin: auto;
-  height: 40vh;
+  height: 55vh;
   width: 95%;
   overflow: hidden;
 }
@@ -29,9 +29,9 @@
   transition: 1s;
   width: 22%;
   padding: 10px;
-  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  
   background: #fff;
-  height: 35vh;
+  height: 45vh;
   display: flex;
   border-radius: 10px;
   color: black;
@@ -77,5 +77,5 @@ p {
 }
 #section-card {
   height: 53vh;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }

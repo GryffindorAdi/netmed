@@ -16,7 +16,11 @@
 .imageslider1 img,
 .imageslider2 img {
   border-radius: 10px;
-  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  
+  
+}
+.imageslider2 img{
+  width: 80%;
 }
 .imageslider,
 .imageslider1,

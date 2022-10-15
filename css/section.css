@@ -22,7 +22,7 @@ section {
 #box {
   display: flex;
   width: 30%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
   align-items: center;
   border-radius: 10px;
 }
@@ -55,7 +55,7 @@ img {
   width: 50px;
 }
 .payment-box {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
   padding: 10px;
   overflow: hidden;
   border-radius: 10px;
