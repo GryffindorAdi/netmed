@@ -74,6 +74,12 @@ a {
   display: flex;
   align-items: center;
 }
+#mednav div span{
+  margin-left: 10px;
+}
+#mednav div:hover{
+  cursor: pointer;
+}
 #mednav {
   display: flex;
   flex-direction: row;
@@ -85,10 +91,13 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  width: 60%;
+  justify-content: space-evenly;
+  width: 80%;
   margin: 10px auto 15px auto;
   color: #4242428f;
+}
+#lowernav span:hover{
+  cursor: pointer;
 }
 
 /* slider css */
@@ -265,6 +274,7 @@ body{
 }
 #i2{
     width: 1250px;
+    padding-left: 30px;
 }
 #i2 + a{
     text-decoration: none;
@@ -273,7 +283,7 @@ body{
 #i3{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 120px;
     background-color: teal;
     border-radius: 4px;
@@ -281,11 +291,12 @@ body{
 }
 #i3 a{
     width: auto;
-    padding-left: 23px;
+    
     border-radius: 4px;
     height: 35px;
     text-decoration: none;
     color: white;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
