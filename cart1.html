@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="cart1.css">
+    <title>Cart</title>
+  </head>
+  <body>
+    <div id="container"><h1>Order Summary</h1></div>
+    <div id="bag">
+      <div id="bag1">
+        <div id="bag11">
+          <img
+            src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1664557401_569x9052666.jpg"
+            alt=""
+          />
+        </div>
+        <div id="bag12">
+          <p>PRODUCTS</p>
+          <div id="cartitems"></div>
+          <div class="addmore">
+            <a href="products.html"><button>ADD MORE ITEMS</button></a>
+            <a href="products.html"><button>+</button></a>
+          </div>
+        </div>
+        <div id="bag14">
+          <div>
+            <span> SAVED FOR LATER</span>
+            <p>No items in save for later</p>
+          </div>
+        </div>
+      </div>
+      <div id="bag2">
+        <div id="bag22">
+          <p>APPLY PROMOCODE / NMS SUPERCASH</p>
+          <details id="promo">
+            <summary>
+              <span>Apply Promo Code</span>
+              <p>Get flat discount! Vouchers applicable in payment options.</p>
+            </summary>
+            <div>
+              <p id="abcd">Promo code</p>
+              <input
+                type="text"
+                placeholder="Have a promocode? Enter here"
+                id="abc"
+              />
+            </div>
+            <div id="dotbox">
+              <div><input type="checkbox" id="b1" /> NMSNEW</div>
+              <p id="coupon">
+                Get flat 25% off on meds + 50% NMS<br>
+                SuperCash on your First meds order.<br>
+                Minimum order value: Rs. 999.
+              </p>
+            </div>
+            <div id="dotbox">
+              <div><input type="checkbox" id="b2" /> NMS20</div>
+              <p id="coupon">
+                Get flat 20% off on meds + 50% NMS <br>
+                SuperCash on your meds order. Minimum <br>
+                order value: Rs. 1199.
+              </p>
+            </div>
+            <div id="dotbox">
+              <div><input type="checkbox" id="b3" /> NMS15</div>
+              <p id="coupon">
+                Get flat 15% off on meds + 50% NMS <br>
+                SuperCash on your meds order. Minimum <br>
+                order value: Rs. 499.
+              </p>
+            </div>
+            <div id="dotbox">
+              <div><input type="checkbox" id="b4" /> NMS10</div>
+              <p id="coupon">
+                Get flat 10% off on meds + 50% NMS <br>
+                SuperCash on your meds order. Minimum <br>
+                order value: 0.
+              </p>
+            </div>
+            <div id="dotbox">
+              <div><input type="checkbox" id="b5" /> NMSNEW20</div>
+              <p id="coupon">
+                Get flat 20% off on meds + 50% NMS <br>
+                SuperCash on your First meds order. Minimum <br>
+                order value: 0.
+              </p>
+            </div>
+            <div id="coupon1">
+              <span id="Note">NOTE:</span> Some medicines, including eyewear,
+              are eligible for ONLY up to 10% discount on applying any coupon
+              code.
+            </div>
+          </details>
+        </div>
+        <div id="bag23">
+          <div id="pding">
+            <div>
+              <h4>PAYMENT DETAILS</h4>
+            </div>
+            <div>
+              <div id="price">
+                <span>MRP Total</span> <span id="MRP">Rs. 0</span>
+              </div>
+              <div id="price">
+                <span>Netmeds Discount</span>
+                <span id="netmeddiscount">- Rs.84.89</span>
+              </div>
+              <div id="price">
+                <span>Total Amount *</span> <span id="total">Rs.1,459.11</span>
+              </div>
+            </div>
+
+            <div id="saving">TOTAL SAVINGS <span id="netmed">Rs.0</span></div>
+
+            <div id="amount">
+              <div>
+                <p>TOTAL AMOUNT</p>
+                <p id="total1">Rs.1,459.11</p>
+              </div>
+              <div>
+                <button id="last">PROCEED</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="bag24">
+          <div>
+            <p>
+              Netmeds is a technology platform to facilitate transaction of
+              business. The products and services are offered for sale by the
+              sellers. The user authorizes the delivery personnel to be his
+              agent for delivery of the goods. For details read
+              <span>Terms & Conditions.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="cart1.js"></script>

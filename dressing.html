@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dressing</title>
+    <link rel="stylesheet" href="dressing.css">
+   
+</head>
+
+<body>
+    <div id="main">
+        <div id="left">
+            <div id="catagories">
+                <div>
+                    <h2>Categories</h2>
+                </div>
+                <div>
+                    <nav>
+                        <label for=""></label>
+                    </nav>
+                </div>
+            </div>
+
+
+
+            <div id="filter" >
+                <div>
+                    <h1>Filter</h1>
+                    <div>
+                        <div>
+                            <h2>Brands</h2>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="form">
+                                    <form action="">
+                                        <input type="search" name="" class="input" placeholder="Search... " >
+                                    </form>
+                                </div>
+                                <ul id="brandul">
+                                    <li>
+                                        <div>
+                                            <input type="checkbox" onclick="funclick1()"/>
+                                            <span>3M</span>
+                                            <span>(42)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox" onclick="funclick2()"/>
+                                            <span>Prime Medica</span>
+                                            <span>(4)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox" onclick="funclick3()"/>
+                                            <span>Ramaraju</span>
+                                            <span>(4)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox" onclick="funclick4()"/>
+                                            <span>Zywie</span>
+                                            <span>(4)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox">
+                                            <span>Futura Surgicare</span>
+                                            <span>(3)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox">
+                                            <span>Bao Health</span>
+                                            <span>(33)</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <input type="checkbox">
+                                            <span>Bsn</span>
+                                            <span>(32)</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h2>Manufacturers</h2>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <form action="">
+                                <input type="search" class="input" placeholder="Search...">
+                            </form>
+                        </div>
+                        <ul id="manufacture-ul">
+                            <li>
+                                <div>
+                                    <input type="checkbox" onclick="funclick5()"/>
+                                    <span>Johnson & Johnson Pvt Ltd</span>
+                                    <span>(104)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" onclick="funclick6()"/>
+                                    <span>Datt Mediproducts Pvt Ltd</span>
+                                    <span>(58)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" onclick="funclick7()"/>
+                                    <span>Essity India Pvt Ltd</span>
+                                    <span>(49)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" onclick="funclick8()"/>
+                                    <span>3M India Pvt Ltd</span>
+                                    <span>(41)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox"/>
+                                    <span>Kanav Healthcare Pvt Ltd</span>
+                                    <span>(33)</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>catagories</h2>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <form action="">
+                                <input type="search" class="input" placeholder="Search...">
+                            </form>
+                        </div>
+                        <ul id="catagories-ul">
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>Bandages</span>
+                                    <span>(361)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>Cotton Wool & Swabs</span>
+                                    <span>(81)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>Sutures</span>
+                                    <span>(120)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>Tapes & Films</span>
+                                    <span>(146)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox">
+                                    <span>Trolley Stand</span>
+                                    <span>(1)</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2>Price</h2>
+                </div>
+                <div>
+                    <input
+                      id="rangeElement"
+                      type="range"
+                      class="swipe-either-way"
+                      oninput="showVal(this.value)"
+                      value="0"
+                      mmin="0"
+                      max="100"
+                    />
+                    <span id="kl">0 </span>
+                </div>
+                <div>
+                    <h2>Availability</h2>
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <span>Exclude out of stock (372)</span>
+                </div>
+            </div>
+            
+
+        </div>
+        <div id="right">
+            <div>
+                <img src="https://www.netmeds.com/images/category/3107/dressing_0.jpg" alt="">
+            </div>
+            <div>
+                <P>Showing <span>12</span> of <span>230</span> </P>
+                <div>
+                    <p>Sort by: </p>
+                    <button class="active">Popularity</button>
+                    <button onclick="HighToLow()">High to Low</button>
+                    <button onclick="LowToHigh()">Low To High</button>
+                    <button onclick="sortByDiscount()">Discount</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>ALL PRODUCTS</h3>
+                </div>
+
+                <div id="dressing">
+                    <!-- product code from json -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+<script src="dressing.js"></script>

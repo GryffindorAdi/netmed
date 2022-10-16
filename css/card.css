@@ -1,0 +1,81 @@
+.cardmain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.s,
+.s1 {
+  position: relative;
+  margin: auto;
+  height: 55vh;
+  width: 95%;
+  overflow: hidden;
+}
+
+.s img,
+.s1 img {
+  border-radius: 10px;
+
+  display: block;
+  margin: auto;
+
+  padding: 10px 0px;
+}
+.cardimageslider,
+.cardimageslider1 {
+  position: absolute;
+  transition: 1s;
+  width: 22%;
+  padding: 10px;
+  
+  background: #fff;
+  height: 45vh;
+  display: flex;
+  border-radius: 10px;
+  color: black;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.Cardslider-btm {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 33vh;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 200;
+}
+.Cardslider-btm > button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 35px;
+}
+.card-btm {
+  width: 95%;
+  margin: 0 auto;
+  padding: 12px;
+  color: #fff;
+  background-color: #32aeb1;
+  border: none;
+  border-radius: 5px;
+}
+.cardimageslider > h5,
+p,
+.cardimageslider1 > h5,
+p {
+  padding: 5px;
+}
+.k {
+  background-color: #32aeb1;
+  height: 20vh;
+  color: #fff;
+  padding: 1px 0 0 0;
+}
+#section-card {
+  height: 53vh;
+  margin-bottom: 100px;
+}
