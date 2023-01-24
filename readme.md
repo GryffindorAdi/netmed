@@ -10,8 +10,8 @@
 <h1>Contributers:</h1>
 <ul>
   <li>Roshan Kumar</li>
-  <li>Roshan Kumar</li>
-  <li>Roshan Kumar</li>
+  <li>Aditya Kumar</li>
+  <li>Vinayak Pagar</li>
 </ul>
 <h1>Tech Stack :</h1>
 <ul> 
