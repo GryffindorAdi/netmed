@@ -22,9 +22,8 @@
 
 <h1>Pages & Features</h1>
 <ul> 
-  <li>Landing Page: Navbars, Slider, Videos,Blogs,Banner,Models,categories and footer section.</li>
-  <li>Products Page: when user sign in with their respective email id's and page it will ridirect to products page where user can select or add to cart for further process.</li>
-  <li>Single Product Page:when user clicks any of the product its redirect to the more details about the product and add to cart button to add items in cart</li>
+  <li>Landing Page: Navbars,Slider,Banner,Models,categories and footer section.</li>
+  <li>Products Page: when user sign in with their respective email id's and page it will ridirect to products page. In product there many product according to catogory and also have filter where user can select or add to cart for further process.</li>
   <li>Cart Page : User can add products to this page and on click cash on delivery button moves to payment page</li>
   <li>Payment Page:user enter the deatils and click on pay button makes the payment success</li
 </ul>
