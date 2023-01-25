@@ -1,7 +1,7 @@
 <h1>Netmeds-PROJECT</h1>
 <p>Netmeds-India's pharmacy website</p>
 <img width="1500" src="https://roshan-portfolio1.netlify.app/nn.jpg" alt="">
-<h1>WELCOME ✨</h1>
+<h1>About ✨</h1>
 <p>About Netmeds</p>
 <p>Netmeds is an Indian healthcare e-commerce startup founded by Pradeep Dadha in 2010..</p>
 <h4>About this project</h4>
